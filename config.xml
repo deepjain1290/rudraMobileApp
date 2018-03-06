@@ -110,6 +110,5 @@
     <plugin name="cordova-plugin-googlemaps" spec="^2.2.2">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDgpNZvY0Q20IoBPHkZYvyV1t8P0riLhnk" />
     </plugin>
-    <plugin name="cordova-sqlite-storage" spec="^2.2.0" />
     <plugin name="cordova-plugin-sms-receiver" spec="^0.1.6" />
 </widget>
