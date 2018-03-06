@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-sms-receiver",
+        "scope": null,
+        "escapedName": "cordova-plugin-sms-receiver",
+        "name": "cordova-plugin-sms-receiver",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\Deepak-Data\\VSCodeProjects\\MyPhoneApp"
+    ]
+  ],
+  "_from": "cordova-plugin-sms-receiver@latest",
+  "_id": "cordova-plugin-sms-receiver@0.1.6",
+  "_inCache": true,
+  "_location": "/cordova-plugin-sms-receiver",
+  "_nodeVersion": "7.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-sms-receiver-0.1.6.tgz_1481564098563_0.9172917059622705"
+  },
+  "_npmUser": {
+    "name": "ratson",
+    "email": "npm@ratson.name"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-sms-receiver",
+    "scope": null,
+    "escapedName": "cordova-plugin-sms-receiver",
+    "name": "cordova-plugin-sms-receiver",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-sms-receiver/-/cordova-plugin-sms-receiver-0.1.6.tgz",
+  "_shasum": "6deb7fdd0603106318829cf3b9604642dd22c48d",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-sms-receiver",
+  "_where": "E:\\Deepak-Data\\VSCodeProjects\\MyPhoneApp",
+  "author": {
+    "name": "Ratson"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/rehy/cordova-plugin-sms-receiver/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-sms-receiver",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova SMS Receiver Plugin",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "npm-run-all": "^3.1.2",
+    "rimraf": "^2.5.4",
+    "sync-package-version": "^0.0.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6deb7fdd0603106318829cf3b9604642dd22c48d",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-sms-receiver/-/cordova-plugin-sms-receiver-0.1.6.tgz"
+  },
+  "files": [
+    "*.js",
+    "*.md",
+    "*.xml",
+    "LICENSE",
+    "src",
+    "www"
+  ],
+  "gitHead": "48a3c2971cc13edca6c9c3451be0f4b37513d20c",
+  "homepage": "https://github.com/rehy/cordova-plugin-sms-receiver#readme",
+  "keywords": [
+    "cordova",
+    "sms",
+    "receiver",
+    "ecosystem:cordova",
+    "cordova-android",
+    "plugin"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "ratson",
+      "email": "npm@ratson.name"
+    }
+  ],
+  "name": "cordova-plugin-sms-receiver",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehy/cordova-plugin-sms-receiver.git"
+  },
+  "scripts": {
+    "build": "babel src/js --out-dir www",
+    "clean": "rimraf www",
+    "prepublish": "npm-run-all clean build",
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "version": "0.1.6"
+}

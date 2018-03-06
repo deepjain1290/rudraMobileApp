@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.x",
+    "angular-route": "1.x",
+    "mobile-angular-ui": "1.2.x",
+    "font-awesome": "4.2",
+    "bootstrap": "3.x",
+    "ngCordova": "^0.1.27-alpha",
+    "moment": "^2.20.1",
+    "jquery": "^3.3.1"
+  }
+}
