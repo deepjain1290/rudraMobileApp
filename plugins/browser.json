@@ -45,6 +45,9 @@
     },
     "cordova-plugin-sms-receiver": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-admob": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   },
   "dependent_plugins": {
@@ -52,6 +55,9 @@
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
     "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-connectivity-monitor": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   }

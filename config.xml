@@ -111,4 +111,5 @@
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDgpNZvY0Q20IoBPHkZYvyV1t8P0riLhnk" />
     </plugin>
     <plugin name="cordova-plugin-sms-receiver" spec="^0.1.6" />
+    <plugin name="cordova-admob" spec="^4.1.16" />
 </widget>

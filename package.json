@@ -38,7 +38,8 @@
       "cordova-plugin-googlemaps": {
         "API_KEY_FOR_ANDROID": "AIzaSyDgpNZvY0Q20IoBPHkZYvyV1t8P0riLhnk"
       },
-      "cordova-plugin-sms-receiver": {}
+      "cordova-plugin-sms-receiver": {},
+      "cordova-admob": {}
     },
     "platforms": [
       "android",
@@ -46,8 +47,10 @@
     ]
   },
   "dependencies": {
+    "cordova-admob": "^4.1.16",
     "cordova-android": "~6.3.0",
     "cordova-browser": "^5.0.3",
+    "cordova-connectivity-monitor": "^1.2.2",
     "cordova-plugin-battery-status": "^1.2.5",
     "cordova-plugin-camera": "^2.4.1",
     "cordova-plugin-compat": "^1.2.0",
