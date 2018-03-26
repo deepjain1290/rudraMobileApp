@@ -2,18 +2,23 @@ angular.module('DJMobileApp.controllers.Main', [
     'DJMobileApp.services'
 ])
 
-    .controller('MainController', function ($scope, deviceready, getCurrentPosition, getWeather) {
+    .controller('MainController', function ($scope, deviceReady, getCurrentPosition, getWeather) {
 
-        deviceReady(function () {
-            // Set AdMobAds options:
-            admob.setOptions({
-                publisherId: "ca-app-pub-7014323267004971/1976976363"  // Required
-            });
+        adds.initialize();
+        adds.initAds();
+        adds.startBannerAds();
+        adds.showBannerAds();
+        // deviceReady(function () {
+        //     // Set AdMobAds options:
+        //     admob.setOptions({
+        //         publisherId: "ca-app-pub-7014323267004971/1976976363"  // Required
+        //     });
 
-            admob.createBannerView();
+        //     admob.createBannerView();
 
-            admob.showBannerAd(true);
-        });
+        //     admob.showBannerAd(true);
+        //     console.log('adMob Loaded')
+        // });
 
         $scope.isAuth = false;
         console.log($scope);

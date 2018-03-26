@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>rudraHR by ITSL</title>
+  <title>GmSys by Oshnic IT</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -17,7 +17,7 @@
   <style>
     .color-bg,
     .app-body {
-      background-color: rgb(198, 239, 250) !important;
+      background-color: rgb(255, 255, 255) !important;
     }
 
     .bg-white,
@@ -37,7 +37,7 @@
 
     <div class="navbar navbar-app navbar-absolute-top">
       <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
-        rudraHR
+        GmSys
       </div>
       <div class="btn-group pull-left">
         <div ui-toggle="uiSidebarLeft" class="btn sidebar-toggle">
@@ -75,14 +75,11 @@
   <!-- ~ .login -->
   <div ng-if="!isAuth" class="app">
     <div class="text-center bg-white">
-      <img src="images/Rudralogo.png" width="200" height="100" />
+      <img src="images/os-logo.png" width="281" height="77" />
     </div>
     <div class="app-body">
       <div class="app-content">
         <div class="scrollable" ng-if="!isRegister">
-
-
-
           <form role="form" class="scrollable-content section color-bg">
             <h3 class="text-center">Login</h3>
             <fieldset>
@@ -103,7 +100,7 @@
             </fieldset>
             <hr>
             <div class="text-center">
-              <button class="btn btn-raised ripple-effect btn-primary" ng-click='login(this)'>
+              <button class="btn  ripple-effect btn-primary" ng-click='login(this)'>
                 Login
               </button>
               <button class="btn btn-raised ripple-effect btn-danger" ng-click='openRegister()'>
@@ -198,7 +195,5 @@
     </div>
   </div>
   <div ui-yield-to="modals"></div>
-
 </body>
-
 </html>
