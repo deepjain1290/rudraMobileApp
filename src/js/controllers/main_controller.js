@@ -5,11 +5,12 @@ angular.module('DJMobileApp.controllers.Main', [
     .controller('MainController', function ($scope, deviceReady, getCurrentPosition, getWeather) {
 
         adds.initialize();
-        adds.initAds();
+        adds.initAds(); 
         adds.startBannerAds();
         adds.showBannerAds();
         // deviceReady(function () {
         //     // Set AdMobAds options:
+        
         //     admob.setOptions({
         //         publisherId: "ca-app-pub-7014323267004971/1976976363"  // Required
         //     });
